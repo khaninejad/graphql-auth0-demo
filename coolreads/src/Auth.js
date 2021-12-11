@@ -3,7 +3,7 @@ import auth0 from 'auth0-js';
 class Auth {
   constructor() {
     this.auth0 = new auth0.WebAuth({
-      domain: 'dev-4rrsgd9o.us.auth0.com',
+      domain: '<domain_name>',
       clientID: '<client_id>',
       redirectUri: 'http://localhost:3000/callback',
       audience: '<client_domain>userinfo',
