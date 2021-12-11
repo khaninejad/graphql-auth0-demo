@@ -1,0 +1,28 @@
+{
+  "name": "graph",
+  "version": "1.0.0",
+  "main": "index.js",
+  "module": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "apollo-server": "^3.5.0",
+    "casual": "^1.6.2",
+    "esm": "^3.2.25",
+    "graphql": "^16.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^2.0.5",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.12.0-beta.2",
+    "sqlite": "^4.0.23"
+  },
+  "devDependencies": {
+    "sqlite3": "^5.0.2"
+  }
+}
